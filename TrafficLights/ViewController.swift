@@ -8,15 +8,12 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    @IBOutlet var colorOfLightsStackView: UIStackView!
     
     @IBOutlet var startButton: UIButton!
     
     @IBOutlet var redLightView: UIView!
     @IBOutlet var yellowLightView: UIView!
     @IBOutlet var greenLightView: UIView!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,7 +27,6 @@ class ViewController: UIViewController {
         greenLightView.alpha = 0.3
                
     }
-    
     
     @IBAction func turnOnTrafficLightButton() {
         
