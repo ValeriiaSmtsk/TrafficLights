@@ -73,7 +73,6 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="colorOfLightsStackView" destination="edD-OK-e1a" id="pbH-lu-QaM"/>
                         <outlet property="greenLightView" destination="fdg-mw-sad" id="hQH-d9-UZF"/>
                         <outlet property="redLightView" destination="S3e-Ca-1hv" id="Ke9-ig-CUN"/>
                         <outlet property="startButton" destination="Nbf-Zd-77B" id="XMK-Nx-osd"/>
